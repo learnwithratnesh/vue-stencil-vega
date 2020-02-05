@@ -1,0 +1,33 @@
+{
+  "name": "stencil-vega",
+  "version": "0.0.1",
+  "description": "Stencil-chart",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/stencil-starter-project-name/stencil-starter-project-name.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --prod --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "1.8.6"
+  },
+  "dependencies": {
+    "vega": "5.9.1",
+    "vega-embed": "6.2.2",
+    "vega-lite": "4.1.1"
+  },
+  "license": "MIT"
+}

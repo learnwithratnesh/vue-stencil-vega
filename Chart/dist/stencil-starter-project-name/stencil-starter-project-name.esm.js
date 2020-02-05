@@ -1,0 +1,1 @@
+import{p as a,b as p}from"./p-92956126.js";a().then(a=>p([["p-5bbcesjd",[[1,"my-component",{barData:[32]}]]]],a));
